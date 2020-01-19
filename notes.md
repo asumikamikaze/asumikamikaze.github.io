@@ -41,3 +41,16 @@ github.github.io.	3599	IN	A	185.199.110.153
 github.github.io.	3599	IN	A	185.199.109.153
 github.github.io.	3599	IN	A	185.199.111.153
 ```
+
+# Verify domain
+
+Before we can verify asumikamikaze.com, you'll need to complete these verification steps:
+
+* Add a DNS TXT record
+* Create a TXT record in your DNS configuration for `_github-challenge-asumikamikaze.asumikamikaze.com.``
+* Use this code as the value for the TXT record: `d74070b921`
+* Wait until your DNS configuration changes. This could take up to 72 hours.
+
+```bash
+dig _github-challenge-asumikamikaze.com +nostats +nocomments +nocmd TXT
+```
