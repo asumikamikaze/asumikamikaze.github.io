@@ -1,0 +1,15 @@
+
+/* TEAM */
+  Developer: Asumi Kamikaze Team
+  Contact: support [at] asumikamikaze.com
+  Site: http://www.asumikamikaze.com
+  Twitter: @asumikamikaze
+  Location: CABA, Buenos Aires, Argentina
+
+/* SITE */
+  Last update: 2020
+  Doctype: HTML5
+  Language: English
+  IDE: Atom
+  Technologies: HTML5, JavaScript, CSS
+  Frameworks: -
