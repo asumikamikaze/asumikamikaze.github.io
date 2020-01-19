@@ -105,7 +105,7 @@
         ],
         "sameAs": [
           "https://twitter.com/asumikamikaze",
-          "https://github.com/asumikamikaze"
+          "https://github.com/asumikamikaze",
         ]
       }
     </script>
@@ -152,6 +152,11 @@
           | <a href="tel:+5491168269788">call us</a>
           | <a href="https://wa.me/5491168269788">whatsapp us</a>
         </li>
+        <li>
+          Find us
+          | <a href="https://github.com/asumikamikaze">github</a>
+          | <a href="https://twitter.com/asumikamikaze">twitter</a>
+        </li>
       </ul>
     </div>
     <script src="js/cash.min.js"></script>
@@ -164,6 +169,7 @@
           else if (this.href.match(/wa\.me/))   {data = 'whatsapp';}
           else if (this.href.match(/tel:/))     {data = 'phone';}
           else if (this.href.match(/mailto:/))  {data = 'email';}
+          else if (this.href.match(/github|twitter|facebook|linkedin/))  {data = 'social';}
           gtag('event', 'click', {
             'event_category': 'links',
             'event_label': data,
