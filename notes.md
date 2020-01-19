@@ -52,5 +52,5 @@ Before we can verify asumikamikaze.com, you'll need to complete these verificati
 * Wait until your DNS configuration changes. This could take up to 72 hours.
 
 ```bash
-dig _github-challenge-asumikamikaze.com +nostats +nocomments +nocmd TXT
+dig _github-challenge-asumikamikaze.asumikamikaze.com. +nostats +nocomments +nocmd TXT
 ```
