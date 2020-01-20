@@ -165,6 +165,7 @@
         $('a').on('click', function (e) {
           e.preventDefault();
           var data = '';
+          var url = this.href;
           if (this.href.match(/goo\.gl\/maps/)) {data = 'maps';}
           else if (this.href.match(/wa\.me/))   {data = 'whatsapp';}
           else if (this.href.match(/tel:/))     {data = 'phone';}
@@ -173,9 +174,9 @@
           gtag('event', 'click', {
             'event_category': 'links',
             'event_label': data,
-            'value': escape(this.href)
+            'value': escape(this.href),
+            'event_callback': function () {document.location = url;}
           });
-          location.href = this.href;
         });
       });
     </script>
