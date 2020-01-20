@@ -166,15 +166,15 @@
           e.preventDefault();
           var data = '';
           var url = this.href;
-          if (this.href.match(/goo\.gl\/maps/)) {data = 'maps';}
-          else if (this.href.match(/wa\.me/))   {data = 'whatsapp';}
-          else if (this.href.match(/tel:/))     {data = 'phone';}
-          else if (this.href.match(/mailto:/))  {data = 'email';}
-          else if (this.href.match(/github|twitter|facebook|linkedin/))  {data = 'social';}
+          if (url.match(/goo\.gl\/maps/)) {data = 'maps';}
+          else if (url.match(/wa\.me/))   {data = 'whatsapp';}
+          else if (url.match(/tel:/))     {data = 'phone';}
+          else if (url.match(/mailto:/))  {data = 'email';}
+          else if (url.match(/github|twitter|facebook|linkedin/))  {data = 'social';}
           gtag('event', 'click', {
             'event_category': 'links',
             'event_label': data,
-            'value': escape(this.href),
+            'value': escape(url),
             'event_callback': function () {document.location = url;}
           });
         });
