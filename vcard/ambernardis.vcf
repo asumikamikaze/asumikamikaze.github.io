@@ -6,10 +6,11 @@ TITLE: Problem Solver
 ROLE: IT Solutions
 ORG:AsumiKamikaze, inc.
 URL:https://www.asumikamikaze.com/
-EMAIL;type=work:ambernardis@asumikamikaze.com
-TEL;type=voice,work:+54 9 11 6826 9788
-ADR;type=intl,work:;;;CABA;Buenos Aires;;Argentina
-LABEL;type=work,pref:CABA\,Buenos Aires\nArgentina
+EMAIL;TYPE=WORK:ambernardis@asumikamikaze.com
+TEL;TYPE=VOICE,WORK:+54 9 11 6826 9788
+ADR;TYPE=INTL,WORK:;;;CABA;Buenos Aires;;Argentina
+LABEL;TYPE=WORK,PREF:CABA\,Buenos Aires\nArgentina
+IMPP;X-SERVICE-TYPE=Skype;type=WORK;type=pref:skype:alejandro.bernardis
 GEO:-34.6157437,-58.5733832
 TZ:-03:00
 REV:2020-03-09T10:15:00Z
