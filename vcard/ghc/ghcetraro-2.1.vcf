@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:2.1
+N:CETRARO;Gabriel;Hernán;;
+FN:Gabriel H. CETRARO
+PHOTO;JPEG:https://raw.githubusercontent.com/asumikamikaze/asumikamikaze.github.io/master/vcard/ghc/photo.jpg
+TITLE:Problem Solver
+ROLE:Executive
+ORG:AsumiKamikaze, inc.
+URL:https://www.asumikamikaze.com/
+TEL;WORK:+5491134245161
+EMAIL;WORK:ghcetraro@asumikamikaze.com
+ADR;WORK:;;;CABA;Buenos Aires;;Argentina
+REV:2020-03-09T10:15:00Z
+END:VCARD

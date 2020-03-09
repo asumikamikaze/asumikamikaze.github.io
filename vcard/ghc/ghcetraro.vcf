@@ -1,14 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
-N:BERNARDIS;Alejandro;Manuel;;
-FN:Alejandro M. BERNARDIS
-PHOTO;TYPE=JPEG;VALUE=URI:https://raw.githubusercontent.com/asumikamikaze/asumikamikaze.github.io/master/vcard/amb/photo.jpg
+N:CETRARO;Gabriel;Hernán;;
+FN:Gabriel H. CETRARO
+PHOTO;TYPE=JPEG;VALUE=URI:https://raw.githubusercontent.com/asumikamikaze/asumikamikaze.github.io/master/vcard/ghc/photo.jpg
 TITLE:Problem Solver
 ROLE:Executive
 ORG:AsumiKamikaze, inc.
 URL:https://www.asumikamikaze.com/
-EMAIL;type=work:ambernardis@asumikamikaze.com
-TEL;type=voice,work:+54 9 11 6826 9788
+EMAIL;type=work:ghcetraro@asumikamikaze.com
+TEL;type=voice,work:+54 9 11 3424 5161
 ADR;type=intl,work:;;;CABA;Buenos Aires;;Argentina
 LABEL;type=work,pref:CABA\,Buenos Aires\nArgentina
 GEO:-34.6157437,-58.5733832
