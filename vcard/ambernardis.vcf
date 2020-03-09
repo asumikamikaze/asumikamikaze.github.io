@@ -6,8 +6,8 @@ PHOTO;value=uri;type=jpg:https://avatars2.githubusercontent.com/u/641723?s=460&v
 TITLE: Problem Solver
 ROLE: IT Solutions
 ORG:AsumiKamikaze, inc.
-URL:https://www.asumikamikaze.com/
-EMAIL:ambernardis@asumikamikaze.com
+URL;type=work:https://www.asumikamikaze.com/
+EMAIL;type=work:ambernardis@asumikamikaze.com
 TEL;type=voice,work:+54 9 11 6826 9788
 ADR;type=intl,work:;;;CABA;Buenos Aires;;Argentina
 LABEL;type=work,pref:CABA\,Buenos Aires\nArgentina
