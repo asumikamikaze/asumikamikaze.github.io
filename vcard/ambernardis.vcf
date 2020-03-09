@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+N:BERNARDIS;Alejandro;Manuel
+FN:Alejandro M. BERNARDIS
+PHOTO;value=uri;type=jpg:https://avatars2.githubusercontent.com/u/641723?s=460&v=4
+TITLE: Problem Solver
+ROLE: IT Solutions
+ORG:AsumiKamikaze, inc.
+URL:https://www.asumikamikaze.com/
+EMAIL:ambernardis@asumikamikaze.com
+TEL;type=voice,work:+54 9 11 6826 9788
+ADR;type=intl,work:;;;CABA;Buenos Aires;;Argentina
+LABEL;type=work,pref:CABA\,Buenos Aires\nArgentina
+GEO:-34.6157437,-58.5733832
+TZ:-03:00
+REV:2020-03-09T10:15:00Z
+END:VCARD
