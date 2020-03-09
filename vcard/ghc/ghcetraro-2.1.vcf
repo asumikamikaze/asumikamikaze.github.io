@@ -1,6 +1,6 @@
 BEGIN:VCARD
 VERSION:2.1
-N:CETRARO;Gabriel;Hern=C3A1n;;
+N;CHARSET=iso-8859-1:CETRARO;Gabriel;Hernán;;
 FN:Gabriel H. CETRARO
 PHOTO;JPEG:https://raw.githubusercontent.com/asumikamikaze/asumikamikaze.github.io/master/vcard/ghc/photo.jpg
 TITLE:Problem Solver
