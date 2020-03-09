@@ -146,14 +146,16 @@
         <li>
           For infrastructure projects
           | <a href="mailto:ghcetraro@asumikamikaze.com">write us</a>
-          | <a href="tel:+5491136291310">call us</a>
-          | <a href="https://wa.me/5491136291310">whatsapp us</a>
+          | <a href="tel:+5491134245161">call us</a>
+          | <a href="https://wa.me/5491134245161">whatsapp us</a>
+          | <a href="/vcard/vcard-ghcetraro.png">vCard</a>
         </li>
         <li>
           For software projects
           | <a href="mailto:ambernardis@asumikamikaze.com">write us</a>
           | <a href="tel:+5491168269788">call us</a>
           | <a href="https://wa.me/5491168269788">whatsapp us</a>
+          | <a href="/vcard/vcard-ambernardis.png">vCard</a>
         </li>
         <li>
           Find us
@@ -172,10 +174,11 @@
           var data = '';
           var url = this.href;
           if (url.match(/goo\.gl\/maps/)) {data = 'maps';}
-          else if (url.match(/wa\.me/))   {data = 'whatsapp';}
-          else if (url.match(/tel:/))     {data = 'phone';}
-          else if (url.match(/mailto:/))  {data = 'email';}
-          else if (url.match(/github|twitter|facebook|linkedin/))  {data = 'social';}
+          else if (url.match(/wa\.me/)) {data = 'whatsapp';}
+          else if (url.match(/tel:/)) {data = 'phone';}
+          else if (url.match(/mailto:/)) {data = 'email';}
+          else if (url.match(/github|twitter|facebook|linkedin/)) {data = 'social';}
+          else {data = 'regular';}
           gtag('event', 'click', {
             'event_category': 'links',
             'event_label': data,
