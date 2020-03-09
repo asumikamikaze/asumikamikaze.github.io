@@ -11,7 +11,7 @@ EMAIL;type=work:ghcetraro@asumikamikaze.com
 TEL;type=voice,work:+54 9 11 3424 5161
 ADR;type=intl,work:;;;CABA;Buenos Aires;;Argentina
 LABEL;type=work,pref:CABA\,Buenos Aires\nArgentina
-GEO:-34.6157437,-58.5733832
+GEO:-34.6157437;-58.5733832
 TZ:-03:00
 REV:2020-03-09T10:15:00Z
 END:VCARD
